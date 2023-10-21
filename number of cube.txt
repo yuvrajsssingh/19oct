@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int number1,number2,number3,cube;
+    
+    printf("enter the number1:");
+    scanf("%d",&number1);
+    printf("enter the number2:");
+    scanf("%d",&number2);
+    printf("enter the number3:");
+    scanf("%d",&number3);
+    
+    cube = number1*number2*number3;
+    
+    printf("the cube is:%d",cube);
+    return 0;
+}
